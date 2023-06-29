@@ -1,66 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## STRING CONEXION
+Es una aplicación web que busca conectar a estudiantes de diferentes cadenas, programas y trimestres para fomentar la colaboración y el intercambio de información entiempo real. A través de la plataforma, los usuarios pueden compartir sus conocimientos y habilidades, trabajar juntos en proyectos comunes y establecer conexiones valiosas para su futuro profesional. La aplicación ofrece una forma sencilla y eficiente de fomentar la colaboración, permitiendo la creación de proyectos innovadores y la generación de soluciones creativas a problemas específicos.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## ASPECTO GENERAL DEL APLICATIVO
+* Vista de inicio de sesión
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/b652523f-b264-4d1a-8020-43123b56bc1a)
 
-## About Laravel
+* Vista de registro de usuario
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/46c8c254-ba7a-416f-b7d4-250dae8d7723)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+* pantalla de inicio
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/38d5c975-0577-4c43-9c13-435b2226dfe1)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* Modo oscuro del aplicativo
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/6ac2440e-a1b8-47b6-83eb-e1552cd2f2f2)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* Cadenas formativas SENA
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/a4befa5a-df28-4d9a-86ae-9c69e6acedd4)
 
-## Learning Laravel
+* Programas formativos SENA
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/e8b65b6d-76ce-4943-bd33-53e5a1048403)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* Equipos de trabajo
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/b235ce3d-89a2-46b0-89b4-5dc5dbf23dfe)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+* Proyectos productivos
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/43cf7119-b858-4a44-a1aa-19b299717e88)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* Chat interactivo
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/82e9bc4a-c855-4ef4-8ebe-64cddf17f403)
 
-## Laravel Sponsors
+* Foro de preguntas
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/e9ca15f9-d62b-4a4c-b043-67b0486193e9)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## ¿CÓMO INSTALAR STRING CONEXION EN TU MAQUINA LOCAL?
+Previo a la instalación, se debe tener un editor de código (preferiblemente Visual Studio Code), un gestor de bases de datos con MySQL y el composer instalados. Para instalar el aplicativo se debe de dirigir al repositorio de GitHub, a través del siguiente link: (https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository) y descargar el archivo .zip que se encuentra allí. A continuación, descomprimirlo y agregar la carpeta en la ubicación correspondiente, dependiendo del gestor de bases de datos. Si posee conocimientos en el manejo de git no es necesaria la descarga del zip ya que puede usar el comando para clonar el repositorio remoto.
+![imagen](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/36401291-7409-4907-996e-e2ff59b961e0)
 
-### Premium Partners
+Luego, abrir el proyecto, ya sea desde la terminal o el editor y ejecutar los siguientes comandos: php artisan migrate (para ejecutar las migraciones), php artisan serve (para iniciar el servidor), debes de ir a la URL que aparece allí y como último, npm run dev, sino tienes instalado el npm, ejecuta npm install. Una vez hecho esto, la aplicación está corriendo en su navegador.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![comandos_instalacion](https://github.com/Andres-Juan-Gutierrez-Castro-73/string-conexion-repository/assets/129460418/3af3f44a-9997-43c3-833d-7ff5950e24eb)
